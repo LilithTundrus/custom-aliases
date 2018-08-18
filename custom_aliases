@@ -14,3 +14,5 @@ alias lc="find . -name '$i' | xargs wc -l"
 alias hs="history | grep"
 # 'Smart' ls, shows hidden files and human readable file sizes
 alias sls="ls -lah"
+# Convert the Windows tracert to Linux's traceroute
+alias tracert="traceroute"
