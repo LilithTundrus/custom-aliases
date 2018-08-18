@@ -11,4 +11,6 @@ alias gpush="git push -u origin master"
 # Get line count of a given file type/name
 alias lc="find . -name '$i' | xargs wc -l"
 # Command line history search (the lazy way)
-alias bhs="history | grep"
+alias hs="history | grep"
+# 'Smart' ls, shows hidden files and human readable file sizes
+alias sls="ls -lah"
