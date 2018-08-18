@@ -1,0 +1,4 @@
+# Git commands
+alias gstat="git status"
+alias gadd="git add *"
+alias gpush="git push -u origin master"
