@@ -1,4 +1,14 @@
 # Git commands
+
 alias gstat="git status"
 alias gadd="git add *"
 alias gpush="git push -u origin master"
+
+
+
+# General development shorthand commands
+
+# Get line count of a given file type/name
+alias lc="find . -name '$i' | xargs wc -l"
+# Command line history search (the lazy way)
+alias bhs="history | grep"
